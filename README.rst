@@ -14,9 +14,9 @@ Requirements
 - CommPy 0.1
 
 Note: There are some modifications that need to be done in Matplotlib's **animation.py** file. In subclass:: 
-ArtistAnimation(TimedAnimation), 
+    ArtistAnimation(TimedAnimation), 
 comment the function::
-_pre_draw(self, framedata, blit) 
+    _pre_draw(self, framedata, blit) 
 as follows::
     
     def _pre_draw(self, framedata, blit):
