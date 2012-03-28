@@ -4,6 +4,10 @@ The Viterbi Algorithm - Illustrated!
 This software enables the generation of illustrations for the Viterbi Algorithm 
 decoding of convolutional codes using Python.
 
+A demo of the illustration created using this software can be found here_.
+
+.. _here: href="http://veeresht.info/blog/viterbi-algorithm-illustrated/
+
 Requirements
 ------------
 - Python 2.7 or above
