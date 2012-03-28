@@ -15,9 +15,11 @@ Requirements
 
 Note: There are some modifications that need to be done in Matplotlib's **animation.py** file. 
 In subclass::
+
     class ArtistAnimation(TimedAnimation)
 
 comment the function::
+
     def _pre_draw(self, framedata, blit) 
 
 as follows::
