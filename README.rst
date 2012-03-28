@@ -14,10 +14,10 @@ Requirements
 - CommPy 0.1
 
 Note: There are some modifications that need to be done in Matplotlib's **animation.py** file. 
-In subclass:
+In subclass::
     class ArtistAnimation(TimedAnimation)
 
-comment the function:
+comment the function::
     def _pre_draw(self, framedata, blit) 
 
 as follows::
