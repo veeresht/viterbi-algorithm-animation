@@ -13,9 +13,12 @@ Requirements
 - Cython 0.15 or above
 - CommPy 0.1
 
-Note: There are some modifications that need to be done in Matplotlib's **animation.py** file. In subclass :: ArtistAnimation(TimedAnimation), comment the function ::_pre_draw(self, framedata, blit) as follows
-
-.. code:: python
+Note: There are some modifications that need to be done in Matplotlib's **animation.py** file. In subclass:: 
+ArtistAnimation(TimedAnimation), 
+comment the function::
+_pre_draw(self, framedata, blit) 
+as follows::
+    
     def _pre_draw(self, framedata, blit):
         '''
         Clears artists from the last frame.
